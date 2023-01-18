@@ -1,7 +1,9 @@
 import React from "react";
 import EventCard from "../components/EventCard";
 import EventIcon from "../components/EventIcon";
+import BenefitSection from "../components/sections/BenefitSection";
 import NewProductSection from "../components/sections/NewProductSection";
+import RecommendsSection from "../components/sections/RecommendsSection";
 import TypeRecommendSection from "../components/sections/TypeRecommendSection";
 
 const Home = () => {
@@ -22,17 +24,9 @@ const Home = () => {
       {/* 신상품 컴포넌트 반복 */}
       <NewProductSection></NewProductSection>
       {/* 추천 제품 컴포넌트 */}
-      <div>
-        <p>소제목 단락3</p>
-        <div>제품 컴포넌트 1</div>
-        <div>제품 컴포넌트 2</div>
-      </div>
+      <RecommendsSection></RecommendsSection>
       {/* 혜택 컴포넌트 */}
-      <div>
-        <p>소제목 단락4</p>
-        <div>제품 컴포넌트 1</div>
-        <div>제품 컴포넌트 2</div>
-      </div>
+      <BenefitSection></BenefitSection>
       {/* 브랜드 별 이벤트 컴포넌트 */}
       <div>
         <p>소제목 단락 5</p>

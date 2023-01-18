@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Layout from './pages/Layout'
 import Notice from './pages/Notice'
 import ProductDetail from './pages/ProductDetail'
+import Sale from './pages/Sale'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home></Home>}></Route>
           <Route path='/event_detail' element={<Event></Event>}></Route>
           <Route path='/product_detail' element={<ProductDetail></ProductDetail>}></Route>
+          <Route path='/sales' element={<Sale></Sale>}></Route>
           <Route path='/notice' element={<Notice></Notice>}></Route>
         </Route>
       </Routes>

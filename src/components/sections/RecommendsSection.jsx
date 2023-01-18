@@ -1,11 +1,13 @@
 import React from 'react'
+import Recommends from '../Recommends'
 
 const RecommendsSection = () => {
   return (
-    <div>
+    <section>
       <h3>추천 제품 섹션</h3>
-    </div>
-    /* 컴포넌트 반복 */
+      <Recommends></Recommends>
+      <Recommends></Recommends>
+    </section>
   )
 }
 
